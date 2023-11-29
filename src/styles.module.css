@@ -1,0 +1,85 @@
+.root {
+  display: block;
+  position: relative;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  max-width: 400px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  position: relative;
+  padding: 0.5rem 1rem;
+  margin: 0;
+}
+
+.root-shadow {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem #a5f3fc;
+  border-color: #06b6d4;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+  background-color: rgb(42, 42, 212);
+  border-radius: 2rem;
+  padding: 0.5rem;
+}
+
+.label {
+  margin-top: -2px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  background: none;
+  display: inline-block;
+  vertical-align: middle;
+  color: #fafafa;
+}
+
+.inputWrapper {
+  display: inline-flex;
+  align-items: center;
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.suggestionsWrapper {
+  background-color: #555151;
+  padding: 1rem 0;
+  border-radius: 12px;
+  overflow-y: auto;
+  border: 1px solid #fafafa;
+}
+
+.suggestions {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.suggestion {
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.suggestionHighlight,
+.suggestion:hover {
+  background-color: #2c2929;
+}
+
+.loadingIcon {
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  right: 14px;
+  margin-top: -0.5rem;
+}
