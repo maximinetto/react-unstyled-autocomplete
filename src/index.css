@@ -18,3 +18,9 @@
 *::before {
   box-sizing: border-box;
 }
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
